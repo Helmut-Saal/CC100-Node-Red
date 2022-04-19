@@ -1,0 +1,26 @@
+{
+  "name": "node-red-contrib-wago-cc100",
+  "node-red": {
+    "nodes": {
+      "Set-DO1": "DigOut.js",
+      "Set-DO2": "DigOut.js",
+      "Set-DO3": "DigOut.js",
+      "Set-DO4": "DigOut.js",
+      "Read-DO": "DigOut.js",
+      "Read-DI": "DigIn.js",
+      "Set-AO1": "AO.js",
+      "Set-AO2": "AO.js",
+      "Read-AO": "AO.js",
+      "Read-AI1": "AI.js",
+      "Read-AI2": "AI.js",
+      "Read-PT1": "PT.js",
+      "Read-PT2": "PT.js",
+      "Test": "cc100.js"
+    }
+  },
+  "version": "0.0.5",
+  "description": "Handle EA's on CC100 PLC",
+  "main": "cc100.js",
+  "author": "Helmut.Saal@wago.com",
+  "license": "MIT"
+}

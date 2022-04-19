@@ -1,0 +1,376 @@
+<!-- Digital-Out 1 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Set-DO1',{
+        category: 'WAGO CC100',
+        color: '#FF0000',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "arrow-in.svg",
+        label: function() {
+            return this.name||"Set-DO1";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Set-DO1">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Set-DO1">
+    <p>Node write Digital Output 1 to CC100 PLC</p>
+</script>
+<!-- Digital-Out 1 -->
+
+<!-- Digital-Out 2 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Set-DO2',{
+        category: 'WAGO CC100',
+        color: '#FF0000',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "arrow-in.svg",
+        label: function() {
+            return this.name||"Set-DO2";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Set-DO2">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Set-DO2">
+    <p>Node write Digital Output 2 to CC100 PLC</p>
+</script>
+<!-- Digital-Out 2 -->
+
+<!-- Digital-Out 3 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Set-DO3',{
+        category: 'WAGO CC100',
+        color: '#FF0000',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "arrow-in.svg",
+        label: function() {
+            return this.name||"Set-DO3";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Set-DO3">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Set-DO3">
+    <p>Node write Digital Output 3 to CC100 PLC</p>
+</script>
+<!-- Digital-Out 3 -->
+
+<!-- Digital-Out 4 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Set-DO4',{
+        category: 'WAGO CC100',
+        color: '#FF0000',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "arrow-in.svg",
+        label: function() {
+            return this.name||"Set-DO4";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Set-DO4">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Set-DO4">
+    <p>Node write Digital Output 4 to CC100 PLC</p>
+</script>
+<!-- Digital-Out 4 -->
+
+<!-- Digital-Out -->
+<script type="text/javascript">
+    RED.nodes.registerType('Read-DO',{
+        category: 'WAGO CC100',
+        color: '#FF0000',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:5,
+        icon: "arrow-in.svg",
+        label: function() {
+            return this.name||"Read-DO";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Read-DO">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Read-DO">
+    <p>Node read all Digital Output states on CC100 PLC</p>
+</script>
+<!-- Digital-Out -->
+
+<!-- Digital-In -->
+<script type="text/javascript">
+    RED.nodes.registerType('Read-DI',{
+        category: 'WAGO CC100',
+        color: '#FFFF00',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:9,
+        icon: "feed.svg",
+        label: function() {
+            return this.name||"Read-DI";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Read-DI">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Read-DI">
+    <p>Node read all Digital Input states on CC100 PLC</p>
+</script>
+<!-- Digital-In -->
+
+<!-- Analog Out 1 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Set-AO1',{
+        category: 'WAGO CC100',
+        color: '#4169E1',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "arrow-in.svg",
+        label: function() {
+            return this.name||"Set-AO1";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Set-AO1">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Set-AO1">
+    <p>Node write Analog Output 1 to CC100 PLC</p>
+</script>
+<!-- Analog Out 1 -->
+
+<!-- Analog Out 2 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Set-AO2',{
+        category: 'WAGO CC100',
+        color: '#4169E1',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "arrow-in.svg",
+        label: function() {
+            return this.name||"Set-AO2";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Set-AO2">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Set-AO2">
+    <p>Node write Analog Output 1 to CC100 PLC</p>
+</script>
+<!-- Analog Out 2 -->
+
+<!-- Read Analog Out -->
+<script type="text/javascript">
+    RED.nodes.registerType('Read-AO',{
+        category: 'WAGO CC100',
+        color: '#4169E1',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:2,
+        icon: "feed.svg",
+        label: function() {
+            return this.name||"Read-AO";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Read-AO">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Read-AO">
+    <p>Node read all Analog Output values on CC100 PLC</p>
+</script>
+<!-- Read Analog Out -->
+
+<!-- Analog IN 1 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Read-AI1',{
+        category: 'WAGO CC100',
+        color: '#00FF00',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "feed.svg",
+        label: function() {
+            return this.name||"Read-AI1";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Read-AI1">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Read-AI1">
+    <p>Node read Analog Input 1 on CC100 PLC</p>
+</script>
+<!-- Analog In 1 -->
+
+<!-- Analog In 2 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Read-AI2',{
+        category: 'WAGO CC100',
+        color: '#00FF00',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "feed.svg",
+        label: function() {
+            return this.name||"Read-AI2";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Read-AI2">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Read-AI2">
+    <p>Node read Analog Input 2 on CC100 PLC</p>
+</script>
+<!-- Analog In 2 -->
+
+<!-- Analog PT 1 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Read-PT1',{
+        category: 'WAGO CC100',
+        color: '#00FF00',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "feed.svg",
+        label: function() {
+            return this.name||"Read-PT1";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Read-PT1">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Read-PT1">
+    <p>Node read PT1000 Input 1 on CC100 PLC</p>
+</script>
+<!-- Analog PT 1 -->
+
+<!-- Analog PT 2 -->
+<script type="text/javascript">
+    RED.nodes.registerType('Read-PT2',{
+        category: 'WAGO CC100',
+        color: '#00FF00',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "feed.svg",
+        label: function() {
+            return this.name||"Read-PT2";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="Read-PT2">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="Read-PT2">
+    <p>Node read PT1000 Input 1 on CC100 PLC</p>
+</script>
+<!-- Analog PT 2 -->
