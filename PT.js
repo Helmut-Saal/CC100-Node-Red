@@ -1,6 +1,6 @@
 module.exports = function(RED) {
-    //const PT1PID = '/sys/bus/iio/devices/iio:device2/in_voltage1_raw'
-    //const PT2PID = '/sys/bus/iio/devices/iio:device2/in_voltage5_raw' 
+    //const PT1PID = '/sys/bus/iio/devices/iio:device2/in_voltage13_raw'
+    //const PT2PID = '/sys/bus/iio/devices/iio:device2/in_voltage1_raw' 
     const PT1PID = '/home/pt1.txt';
     const PT2PID = '/home/pt2.txt';
     // Read PT1000 Input 1
