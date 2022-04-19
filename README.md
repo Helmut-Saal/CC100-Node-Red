@@ -1,2 +1,2 @@
 # CC100-Node-Red
-Node-Red Library to controll EA's on CC100
+Node-Red library to controll EA's on CC100
