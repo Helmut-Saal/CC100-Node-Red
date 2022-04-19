@@ -10,6 +10,7 @@ module.exports = function(RED) {
     function setDO1(config) {
         RED.nodes.createNode(this,config);
         var node = this;
+        var parts;
         var value;
         const fs = require('fs');
         node.on('input', function(msg) {
@@ -21,6 +22,7 @@ module.exports = function(RED) {
                 }
                 else {
                     console.log("Read DO 1 on CC100 was successful.");
+                    parts = data.toString().split(':');
                     console.log("Raw Data: " + data.toString());
                     value = Number(data);
                     // Write the Digital Output 1 (value) if needed
@@ -78,8 +80,9 @@ module.exports = function(RED) {
                 }
                 else {
                     console.log("Read DO 2 on CC100 was successful.");
-                    console.log("Raw Data: " + data.toString());
-                    value = Number(data);
+                    parts = data.toString().split(':');
+                    console.log(parts);
+                    value = Number(parts);
                     // Write the Digital Output 2 (value) if needed
                     if (msg.payload === true & ((value & do2) != do2))
                     {   
@@ -135,8 +138,9 @@ module.exports = function(RED) {
                 }
                 else {
                     console.log("Read DO 3 on CC100 was successful.");
-                    console.log("Raw Data: " + data.toString());
-                    value = Number(data);
+                    parts = data.toString().split(':');
+                    console.log(parts);
+                    value = Number(parts);
                     // Write the Digital Output 3 (value) if needed
                     if (msg.payload === true & ((value & do3) != do3))
                     {   
@@ -192,8 +196,9 @@ module.exports = function(RED) {
                 }
                 else {
                     console.log("Read DO 4 on CC100 was successful.");
-                    console.log("Raw Data: " + data.toString());
-                    value = Number(data);
+                    parts = data.toString().split(':');
+                    console.log(parts);
+                    value = Number(parts);
                     // Write the Digital Output 4 (value) if needed
                     if (msg.payload === true & ((value & do4) != do4))
                     {   
