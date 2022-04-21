@@ -14,14 +14,25 @@
       "Read-AI1": "AI.js",
       "Read-AI2": "AI.js",
       "Read-PT1": "PT.js",
-      "Read-PT2": "PT.js",
-      "Test": "cc100.js",
-      "Test1": "cc100.js"
+      "Read-PT2": "PT.js"
     }
   },
   "version": "0.0.6",
   "description": "Handle EA's on CC100 PLC",
+  "license": "MIT",
   "main": "cc100.js",
   "author": "Helmut.Saal@wago.com",
-  "license": "MIT"
+  "license": "MIT",
+  "contributors": [
+      {
+          "name": "Helmut Saal"
+      },
+      {
+          "name": "Jens Sparmann"
+      }
+  ],
+  "keywords": [ "node-red" ],
+  "engines": {
+      "node": ">=12"
+  }
 }
