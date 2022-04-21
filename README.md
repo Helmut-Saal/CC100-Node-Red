@@ -7,10 +7,10 @@ Directly read and set the Digital In- Outputs and also Analog In- Outputs.<br/>
 <hr>
 Controll Digital:
 <hr>
-<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png" alt="Wago1" height="500px" width="10000px" align="middle">
+<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png" alt="Digital EA" height="500px" width="10000px" align="middle">
 
 
-Text
-
-
-<img src="https://raw.githubusercontent.com/Helmut-Saal/CC100-Node-Red/master/Analog.png?token=GHSAT0AAAAAABQV5VCJAJRPRA5NYABBKMOCYTBEJLA" alt="Wago2" height="500px" width="10000px" align="middle">
+<hr>
+Controll Digital:
+<hr>
+<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Analog.png" alt="Analog EA" height="500px" width="10000px" align="middle">
