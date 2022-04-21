@@ -1,4 +1,5 @@
 # CC100-Node-Red
+contrib-wago-cc100
 Node-Red library to controll EA's on CC100<br />
 
 Directly read and set the Digital In- Outputs and also Analog In- Outputs.<br/>
