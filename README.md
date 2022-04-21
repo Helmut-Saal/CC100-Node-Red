@@ -8,8 +8,6 @@ Directly read and set the Digital In- Outputs and also Analog In- Outputs.<br/>
 Controll Digital:
 <hr>
 <img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png" alt="Digital EA" height="500px" width="10000px" align="middle">
-
-
 <hr>
 Controll Digital:
 <hr>
