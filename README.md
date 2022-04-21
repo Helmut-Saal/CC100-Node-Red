@@ -18,6 +18,7 @@ https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Flow%20Example.txt
  ```
 
 <H4>Note: You have to run the Node-Red Container with privileged mode:</H4>
+                                                                                                                             
  ```
 docker run -d --name wago-node-red \
 -d --privileged=true --user=root \
