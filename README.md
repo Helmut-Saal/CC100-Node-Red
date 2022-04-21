@@ -7,8 +7,8 @@ Directly read and set the Digital In- Outputs and also Analog In- Outputs.<br/>
 <hr>
 Controll Digital and Analog signals:
 <hr>
-<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png" alt="Digital EA" height="200px" width="400px" align="left">
-<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Analog.png" alt="Analog EA" height="200px" width="400px" align="right">
+<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png" alt="Digital EA" height="200px" width="400px">
+<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Analog.png" alt="Analog EA" height="200px" width="400px"">
 <hr>
 <br/>
 
