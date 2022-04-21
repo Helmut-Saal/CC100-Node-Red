@@ -17,7 +17,7 @@
       "Read-PT2": "PT.js"
     }
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Handle EA's on CC100 PLC",
   "license": "MIT",
   "main": "cc100.js",
