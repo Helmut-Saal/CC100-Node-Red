@@ -6,7 +6,7 @@ Directly read and set the Digital In- Outputs and also Analog In- Outputs.<br/>
 <hr>
 Controll Digital:
 <hr>
-<img src="https://raw.githubusercontent.com/Helmut-Saal/CC100-Node-Red/master/Digital.png?token=GHSAT0AAAAAABQV5VCIM2C56BUIDX3BDOQ2YTBEHYQ" alt="Wago1" height="500px" width="10000px" align="middle">
+<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png" alt="Wago1" height="500px" width="10000px" align="middle">
 
 
 Text
