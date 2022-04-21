@@ -12,8 +12,6 @@ Controll Digital and Analog signals:
 <hr>
 <br/>
 
-
-ddd
 Download example flow from Github:<br/>
 ```
 https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Flow%20Example.txt
@@ -25,5 +23,5 @@ docker run -d --name wago-node-red \
 -d --privileged=true --user=root \
 -p 1880:1880 \
 -v node_red_user_data:/data \
-wagoautomation/node-red-cc100:0.0.6
+nodered/node-red
  ```
