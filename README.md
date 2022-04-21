@@ -16,7 +16,7 @@ Controll Digital and Analog signals:
 ddd
 Download example flow from Github:<br/>
 ```
-www
+https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Flow%20Example.txt
  ```
 
 Note: You have to run the Node-Red Container with privileged mode:
