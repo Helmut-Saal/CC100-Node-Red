@@ -1,6 +1,5 @@
 module.exports = function(RED) {
-    //const DigOutPID = '/sys/kernel/dout_drv/DOUT_DATA'
-    const DigOutPID = '/home/do.txt';
+    const DigOutPID = '/sys/kernel/dout_drv/DOUT_DATA'
     const do1 = 1;
     const do2 = 2;
     const do3 = 4;

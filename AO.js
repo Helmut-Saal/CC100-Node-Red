@@ -1,13 +1,8 @@
 module.exports = function(RED) {
-    //const AO1OnPID ='/sys/bus/iio/devices/iio:device0/out_voltage1_powerdown'
-    //const AO1PID = '/sys/bus/iio/devices/iio:device0/out_voltage1_raw'
-    //const AO2OnPID = '/sys/bus/iio/devices/iio:device1/out_voltage2_powerdown'
-    //const AO2PID = '/sys/bus/iio/devices/iio:device1/out_voltage2_raw'  
-    const AO1OnPID = '/home/ao1on.txt';
-    const AO1PID = '/home/ao1.txt';
-    const AO2OnPID = '/home/ao2on.txt';
-    const AO2PID = '/home/ao2.txt';
-
+    const AO1OnPID ='/sys/bus/iio/devices/iio:device0/out_voltage1_powerdown'
+    const AO1PID = '/sys/bus/iio/devices/iio:device0/out_voltage1_raw'
+    const AO2OnPID = '/sys/bus/iio/devices/iio:device1/out_voltage2_powerdown'
+    const AO2PID = '/sys/bus/iio/devices/iio:device1/out_voltage2_raw'  
     // Set Analog Output 1
     function setAO1(config) {
         RED.nodes.createNode(this,config);

@@ -5,8 +5,8 @@ Directly read and set the Digital In- Outputs and also Analog In- Outputs.<br/>
 <H4>Note: This lib works asynchron!</H4>
 <hr>
 Controll Digital and Analog signals:
-<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png" alt="Digital EA" height="250px" width="450px" align="left">
-<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Analog.png" alt="Analog EA" height="250px" width="450px">
+<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Digital.png?raw=true" alt="Digital EA" height="250px" width="450px" align="left">
+<img src="https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Analog.png?raw=true" alt="Analog EA" height="250px" width="450px">
 <hr>
 <br/>
 

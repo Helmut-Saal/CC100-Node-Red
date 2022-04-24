@@ -1,8 +1,7 @@
 module.exports = function(RED) {
   // Read all Digital Inputs at once
     function readDI(config) {
-        //const DigInPID = '/sys/devices/platform/soc/44009000.spi/spi_master/spi0/spi0.0/din'
-        const DigInPID = '/home/di.txt';
+        const DigInPID = '/sys/devices/platform/soc/44009000.spi/spi_master/spi0/spi0.0/din'
         RED.nodes.createNode(this,config);
         var node = this;
         node.on('input', function(msg) {

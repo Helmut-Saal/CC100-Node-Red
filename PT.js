@@ -1,8 +1,6 @@
 module.exports = function(RED) {
-    //const PT1PID = '/sys/bus/iio/devices/iio:device2/in_voltage13_raw'
-    //const PT2PID = '/sys/bus/iio/devices/iio:device2/in_voltage1_raw' 
-    const PT1PID = '/home/pt1.txt';
-    const PT2PID = '/home/pt2.txt';
+    const PT1PID = '/sys/bus/iio/devices/iio:device2/in_voltage13_raw'
+    const PT2PID = '/sys/bus/iio/devices/iio:device2/in_voltage1_raw' 
     // Read PT1000 Input 1
     function readPT1(config) {
         RED.nodes.createNode(this,config);

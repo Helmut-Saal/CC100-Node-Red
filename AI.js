@@ -1,8 +1,6 @@
 module.exports = function(RED) {
-    //const AI1PID = '/sys/bus/iio/devices/iio:device3/in_voltage3_raw'
-    //const AI2PID = '/sys/bus/iio/devices/iio:device3/in_voltage0_raw' 
-    const AI1PID = '/home/ai1.txt';
-    const AI2PID = '/home/ai2.txt';
+    const AI1PID = '/sys/bus/iio/devices/iio:device3/in_voltage3_raw'
+    const AI2PID = '/sys/bus/iio/devices/iio:device3/in_voltage0_raw' 
     // Read Analog Input 1
     function readAI1(config) {
         RED.nodes.createNode(this,config);
