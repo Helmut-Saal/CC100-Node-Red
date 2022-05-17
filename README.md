@@ -12,7 +12,7 @@ Controll Digital and Analog signals:
 
 Download example flow from Github:<br/>
 ```
-https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/Flow%20Example.txt
+https://github.com/Helmut-Saal/CC100-Node-Red/blob/master/examples/demo.json
  ```
 
 <H4>Note: You have to run the Node-Red Container with privileged mode:</H4>

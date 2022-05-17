@@ -16,7 +16,8 @@
       "Read-PT1": "PT.js",
       "Read-PT2": "PT.js",
       "Test": "cc100.js"
-    }
+    },
+    "version": ">=2.0.0"
   },
   "version": "0.0.9",
   "description": "Handle EA's on CC100 PLC",
@@ -42,7 +43,11 @@
     "wago",
     "CC100" 
   ],
+  "homepage": "https://github.com/Helmut-Saal/CC100-Node-Red",
+  "bugs": {
+      "url": "https://github.com/Helmut-Saal/CC100-Node-Red/issues/"
+  },
   "engines": {
     "node": ">=12"
-}
+  }
 }
