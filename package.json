@@ -19,23 +19,26 @@
     },
     "version": ">=2.0.0"
   },
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Handle EA's on CC100 PLC",
   "main": "cc100.js",
   "author": "Helmut.Saal@wago.com",
   "license": "MIT",
   "contributors": [
     {
-        "name": "Helmut Saal"
+      "name": "Helmut Saal"
     },
     {
-        "name": "Jens Sparmann"
+      "name": "Jens Sparmann"
     },
     {
       "name": "Kurt Braun"
     },    
     {
-    "name": "Jesse Cox"
+      "name": "Jesse Cox"
+    },
+    {
+      "name": "Sarah Secci"
     }
   ],
   "keywords": [ 

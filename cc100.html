@@ -8,6 +8,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "boolean input",
+        outputLabels: "set state",
         icon: "arrow-in.svg",
         label: function() {
             return this.name||"Set-DO1";
@@ -23,7 +25,19 @@
 </script>
 
 <script type="text/html" data-help-name="Set-DO1">
-    <p>Node write Digital Output 1 to CC100 PLC</p>
+    <p>Writes the Digital Output 1 of the CC100 PLC</p>
+    <p>
+        If the write process exceeds a maximum time of 5 seconds, a corresponding error message follows.
+        This maximum time is currently not adjustable.
+    </p>
+    <p>
+        Only one output can be written at a time. 
+        If an inject-node is connected to several Set-DOx-nodes, they are written one after the other.
+    </p>
+    <p>
+        This is an 24 VDC, 0.5 A output that provides high-side switching. A green status LED on the
+        CC100 indicates the signal status. See the manual for further information.
+    </p>
 </script>
 <!-- Digital-Out 1 -->
 
@@ -37,6 +51,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "boolean input",
+        outputLabels: "set state",
         icon: "arrow-in.svg",
         label: function() {
             return this.name||"Set-DO2";
@@ -52,7 +68,19 @@
 </script>
 
 <script type="text/html" data-help-name="Set-DO2">
-    <p>Node write Digital Output 2 to CC100 PLC</p>
+    <p>Writes the Digital Output 2 of the CC100 PLC</p>
+    <p>
+        If the write process exceeds a maximum time of 5 seconds, a corresponding error message follows.
+        This maximum time is currently not adjustable.
+    </p>
+    <p>
+        Only one output can be written at a time. 
+        If an inject-node is connected to several Set-DOx-nodes, they are written one after the other.
+    </p>
+    <p>
+        This is an 24 VDC, 0.5 A output that provides high-side switching. A green status LED on the
+        CC100 indicates the signal status. See the manual for further information.
+    </p>
 </script>
 <!-- Digital-Out 2 -->
 
@@ -66,6 +94,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "boolean input",
+        outputLabels: "set state",
         icon: "arrow-in.svg",
         label: function() {
             return this.name||"Set-DO3";
@@ -81,7 +111,19 @@
 </script>
 
 <script type="text/html" data-help-name="Set-DO3">
-    <p>Node write Digital Output 3 to CC100 PLC</p>
+    <p>Writes the Digital Output 3 of the CC100 PLC</p>
+    <p>
+        If the write process exceeds a maximum time of 5 seconds, a corresponding error message follows.
+        This maximum time is currently not adjustable.
+    </p>
+    <p>
+        Only one output can be written at a time. 
+        If an inject-node is connected to several Set-DOx-nodes, they are written one after the other.
+    </p>
+    <p>
+        This is an 24 VDC, 0.5 A output that provides high-side switching. A green status LED on the
+        CC100 indicates the signal status. See the manual for further information.
+    </p>
 </script>
 <!-- Digital-Out 3 -->
 
@@ -95,6 +137,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "boolean input",
+        outputLabels: "set state",
         icon: "arrow-in.svg",
         label: function() {
             return this.name||"Set-DO4";
@@ -110,7 +154,19 @@
 </script>
 
 <script type="text/html" data-help-name="Set-DO4">
-    <p>Node write Digital Output 4 to CC100 PLC</p>
+    <p>Writes the Digital Output 4 of the CC100 PLC</p>
+    <p>
+        If the write process exceeds a maximum time of 5 seconds, a corresponding error message follows.
+        This maximum time is currently not adjustable.
+    </p>
+    <p>
+        Only one output can be written at a time. 
+        If an inject-node is connected to several Set-DOx-nodes, they are written one after the other.
+    </p>
+    <p>
+        This is an 24 VDC, 0.5 A output that provides high-side switching. A green status LED on the
+        CC100 indicates the signal status. See the manual for further information.
+    </p>
 </script>
 <!-- Digital-Out 4 -->
 
@@ -124,6 +180,8 @@
         },
         inputs:1,
         outputs:5,
+        inputLabels: "input",
+        outputLabels: ["state DO 1", "state DO 2", "state DO 3", "state DO 4", "object containing all states"],
         icon: "arrow-in.svg",
         label: function() {
             return this.name||"Read-DO";
@@ -139,7 +197,12 @@
 </script>
 
 <script type="text/html" data-help-name="Read-DO">
-    <p>Node read all Digital Output states on CC100 PLC</p>
+    <p>Reads all Digital Output states of the CC100 PLC</p>
+    <p>
+        The CC100 has 4 digital output channels (24 VDC, 0.5 A). The outputs provide high-side switching.
+        A green status LED for each channel indicates the signal status.
+        See the manual for further information.
+    </p>
 </script>
 <!-- Digital-Out -->
 
@@ -153,6 +216,8 @@
         },
         inputs:1,
         outputs:9,
+        inputLabels: "input",
+        outputLabels: ["state DI 1", "state DI 2", "state DI 3", "state DI 4", "state DI 5", "state DI 6", "state DI 7", "state DI 8", "object containing all states"],
         icon: "feed.svg",
         label: function() {
             return this.name||"Read-DI";
@@ -168,7 +233,13 @@
 </script>
 
 <script type="text/html" data-help-name="Read-DI">
-    <p>Node read all Digital Input states on CC100 PLC</p>
+    <p>Reads all Digital Input states of the CC100 PLC</p>
+    <p>
+        The CC100 has 8 digital input channels (24 VDC, 2.8 mA).
+        A green status LED for each channel indicates the signal status.
+        Each input channel has a noise-rejection RC filter with a 5.0 µs time constant.
+        See the manual for further information.
+    </p>
 </script>
 <!-- Digital-In -->
 
@@ -182,6 +253,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "numeric input (0 … +10) V",
+        outputLabels: "set state",
         icon: "arrow-in.svg",
         label: function() {
             return this.name||"Set-AO1";
@@ -197,7 +270,12 @@
 </script>
 
 <script type="text/html" data-help-name="Set-AO1">
-    <p>Node write Analog Output 1 to CC100 PLC</p>
+    <p>Writes Analog Output 1 of the CC100 PLC</p>
+    <p>
+        The CC100 generates signals with standardized values of 0 … +10 V.
+        The output signal is output at a resolution of 12 bits.
+        See the manual for further information.
+    </p>
 </script>
 <!-- Analog Out 1 -->
 
@@ -211,6 +289,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "numeric input (0 … +10) V",
+        outputLabels: "set state",
         icon: "arrow-in.svg",
         label: function() {
             return this.name||"Set-AO2";
@@ -226,7 +306,12 @@
 </script>
 
 <script type="text/html" data-help-name="Set-AO2">
-    <p>Node write Analog Output 1 to CC100 PLC</p>
+    <p>Writes Analog Output 2 of the CC100 PLC</p>
+    <p>
+        The CC100 generates signals with standardized values of 0 … +10 V.
+        The output signal is output at a resolution of 12 bits.
+        See the manual for further information.
+    </p>
 </script>
 <!-- Analog Out 2 -->
 
@@ -240,6 +325,8 @@
         },
         inputs:1,
         outputs:2,
+        inputLabels: "input",
+        outputLabels: ["state AO 1", "state AO 2"],
         icon: "feed.svg",
         label: function() {
             return this.name||"Read-AO";
@@ -255,7 +342,12 @@
 </script>
 
 <script type="text/html" data-help-name="Read-AO">
-    <p>Node read all Analog Output values on CC100 PLC</p>
+    <p>Reads all Analog Output values of the CC100 PLC</p>
+    <p>
+        The CC100 has 2 analog output channels (0 … +10 V). The channels have a common ground potential.
+        The output signals are output at a resolution of 12 bits.
+        See the manual for further information.
+    </p>
 </script>
 <!-- Read Analog Out -->
 
@@ -269,6 +361,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "input",
+        outputLabels: "state AI 1",
         icon: "feed.svg",
         label: function() {
             return this.name||"Read-AI1";
@@ -284,7 +378,12 @@
 </script>
 
 <script type="text/html" data-help-name="Read-AI1">
-    <p>Node read Analog Input 1 on CC100 PLC</p>
+    <p>Reads Analog Input 1 of the CC100 PLC</p>
+    <p>
+        The CC100 processes signals with standardized values of 0 … +10 V.
+        The input signal is transmitted at a resolution of 12 bits.
+        See the manual for further information.
+    </p>
 </script>
 <!-- Analog In 1 -->
 
@@ -298,6 +397,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "input",
+        outputLabels: "state AI 2",
         icon: "feed.svg",
         label: function() {
             return this.name||"Read-AI2";
@@ -313,7 +414,12 @@
 </script>
 
 <script type="text/html" data-help-name="Read-AI2">
-    <p>Node read Analog Input 2 on CC100 PLC</p>
+    <p>Reads Analog Input 2 of the CC100 PLC</p>
+    <p>
+        The CC100 processes signals with standardized values of 0 … +10 V.
+        The input signal is transmitted at a resolution of 12 bits.
+        See the manual for further information.
+    </p>
 </script>
 <!-- Analog In 2 -->
 
@@ -327,6 +433,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "input",
+        outputLabels: "state PT 1",
         icon: "feed.svg",
         label: function() {
             return this.name||"Read-PT1";
@@ -342,7 +450,11 @@
 </script>
 
 <script type="text/html" data-help-name="Read-PT1">
-    <p>Node read PT1000 Input 1 on CC100 PLC</p>
+    <p>Reads Pt1000 Input 1 of the CC100 PLC</p>
+    <p>
+        An analog temperature sensor Pt1000 must be connected to the CC100.
+        The resistance value is converted into a temperature value.
+    </p>
 </script>
 <!-- Analog PT 1 -->
 
@@ -356,6 +468,8 @@
         },
         inputs:1,
         outputs:1,
+        inputLabels: "input",
+        outputLabels: "state PT 2",
         icon: "feed.svg",
         label: function() {
             return this.name||"Read-PT2";
@@ -371,6 +485,10 @@
 </script>
 
 <script type="text/html" data-help-name="Read-PT2">
-    <p>Node read PT1000 Input 1 on CC100 PLC</p>
+    <p>Reads Pt1000 Input 2 of the CC100 PLC</p>
+    <p>
+        An analog temperature sensor Pt1000 must be connected to the CC100.
+        The resistance value is converted into a temperature value.
+    </p>
 </script>
 <!-- Analog PT 2 -->
